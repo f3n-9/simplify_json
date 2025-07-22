@@ -1,0 +1,3275 @@
+{
+    "pdf_info": [
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        239,
+                        244,
+                        393,
+                        256
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                239,
+                                244,
+                                393,
+                                256
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        239,
+                                        244,
+                                        393,
+                                        256
+                                    ],
+                                    "type": "text",
+                                    "content": "GROUP2.9 JAVA PROGRAMMING PROJECT"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        239,
+                        317,
+                        327,
+                        523
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                239,
+                                317,
+                                327,
+                                523
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        239,
+                                        317,
+                                        327,
+                                        523
+                                    ],
+                                    "type": "text",
+                                    "content": "2362870 2363550 2362146 2363287 2363707"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        233,
+                        616,
+                        360,
+                        634
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                233,
+                                616,
+                                360,
+                                634
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        233,
+                                        616,
+                                        360,
+                                        634
+                                    ],
+                                    "type": "text",
+                                    "content": "Project description"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        644,
+                        513,
+                        735
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                644,
+                                513,
+                                735
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        644,
+                                        513,
+                                        735
+                                    ],
+                                    "type": "text",
+                                    "content": "Project descriptionOur project is a quiz system. You can login and register, choose the topic and then choose to answer the quiz or view the Dashboard. After answering the quiz, the score, Dashboard and Leaderboard will be displayed. Questions will be randomly selected from varies difficulties of a specific topic, the number of extracted can be modified in the program, 1 point for each question. When using the program, run the \"main\" file and Login, readQuestion, and scoreManager classes will be called."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 0
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        263,
+                        92,
+                        332,
+                        109
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                263,
+                                92,
+                                332,
+                                109
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        263,
+                                        92,
+                                        332,
+                                        109
+                                    ],
+                                    "type": "text",
+                                    "content": "Algorithm"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        120,
+                        182,
+                        132
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                120,
+                                182,
+                                132
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        120,
+                                        182,
+                                        132
+                                    ],
+                                    "type": "text",
+                                    "content": "Users'data and login"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        136,
+                        509,
+                        163
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                136,
+                                509,
+                                163
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        136,
+                                        509,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "To add, store, and interact with user information, our group created a Login class that includes the following functions:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        83,
+                        167,
+                        168,
+                        179
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                167,
+                                168,
+                                179
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        167,
+                                        168,
+                                        179
+                                    ],
+                                    "type": "text",
+                                    "content": "public class Login{"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        83,
+                        198,
+                        508,
+                        227
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                198,
+                                508,
+                                227
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        198,
+                                        508,
+                                        227
+                                    ],
+                                    "type": "text",
+                                    "content": "1. regestrition converts the entered information into an array through the keyboard and stores the information in the array into a .csv file."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        102,
+                        244,
+                        172,
+                        258
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                102,
+                                244,
+                                172,
+                                258
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        102,
+                                        244,
+                                        172,
+                                        258
+                                    ],
+                                    "type": "text",
+                                    "content": "//import"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        103,
+                        260,
+                        254,
+                        321
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                103,
+                                260,
+                                254,
+                                321
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        103,
+                                        260,
+                                        254,
+                                        321
+                                    ],
+                                    "type": "text",
+                                    "content": "String[] newUser "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        260,
+                                        254,
+                                        321
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "="
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        260,
+                                        254,
+                                        321
+                                    ],
+                                    "type": "text",
+                                    "content": " new String[3]; newUser[0] "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        260,
+                                        254,
+                                        321
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "="
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        260,
+                                        254,
+                                        321
+                                    ],
+                                    "type": "text",
+                                    "content": " nickname; newUser[1] "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        260,
+                                        254,
+                                        321
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "="
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        260,
+                                        254,
+                                        321
+                                    ],
+                                    "type": "text",
+                                    "content": " name; newUser[2] "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        260,
+                                        254,
+                                        321
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "="
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        260,
+                                        254,
+                                        321
+                                    ],
+                                    "type": "text",
+                                    "content": " password;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        104,
+                        338,
+                        201,
+                        351
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                104,
+                                338,
+                                201,
+                                351
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        104,
+                                        338,
+                                        201,
+                                        351
+                                    ],
+                                    "type": "text",
+                                    "content": "CSVWriter(newUser);"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        83,
+                        385,
+                        335,
+                        397
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                385,
+                                335,
+                                397
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        385,
+                                        335,
+                                        397
+                                    ],
+                                    "type": "text",
+                                    "content": "public void CSVWriter(String[] newUser){ //Array type"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        83,
+                        416,
+                        512,
+                        445
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                416,
+                                512,
+                                445
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        416,
+                                        512,
+                                        445
+                                    ],
+                                    "type": "text",
+                                    "content": "2. login will convert all the information in the. csv file into a two-dimensional array and traverse the two-dimensional array for comparison with the information entered by the keyboard."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        84,
+                        463,
+                        264,
+                        476
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                84,
+                                463,
+                                264,
+                                476
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        463,
+                                        264,
+                                        476
+                                    ],
+                                    "type": "text",
+                                    "content": "Question selecting and option shuffling"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        479,
+                        169,
+                        491
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                479,
+                                169,
+                                491
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        479,
+                                        169,
+                                        491
+                                    ],
+                                    "type": "text",
+                                    "content": "(1) Topic selection:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        83,
+                        493,
+                        483,
+                        539
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                493,
+                                483,
+                                539
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        493,
+                                        483,
+                                        539
+                                    ],
+                                    "type": "text",
+                                    "content": "Read the names of .xml file which store the questions, select an optional topic, and then compare with the content entered by the keyboard to determine the selected topic, and import all questions of the topic into the array."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        94,
+                        541,
+                        265,
+                        555
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                541,
+                                265,
+                                555
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        541,
+                                        265,
+                                        555
+                                    ],
+                                    "type": "text",
+                                    "content": "public static Question[] SelectTopic(){"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "bbox": [
+                        83,
+                        572,
+                        183,
+                        585
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                572,
+                                183,
+                                585
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        572,
+                                        183,
+                                        585
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) Random selection:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "bbox": [
+                        83,
+                        587,
+                        503,
+                        616
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                587,
+                                503,
+                                616
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        587,
+                                        503,
+                                        616
+                                    ],
+                                    "type": "text",
+                                    "content": "According to the preset number of questions required for each difficulty, randomly select the corresponding number of questions in each difficulty."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15
+                },
+                {
+                    "bbox": [
+                        83,
+                        618,
+                        503,
+                        648
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                618,
+                                503,
+                                648
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        618,
+                                        503,
+                                        648
+                                    ],
+                                    "type": "text",
+                                    "content": "public static Question[] selectQuestions(Question[] allquestions, int EASY, int MEDIUM, int HARD, int VERY_HARD) {"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16
+                },
+                {
+                    "bbox": [
+                        83,
+                        666,
+                        185,
+                        679
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                666,
+                                185,
+                                679
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        666,
+                                        185,
+                                        679
+                                    ],
+                                    "type": "text",
+                                    "content": "(3) Shuffle the options"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17
+                },
+                {
+                    "bbox": [
+                        83,
+                        682,
+                        315,
+                        695
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                682,
+                                315,
+                                695
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        682,
+                                        315,
+                                        695
+                                    ],
+                                    "type": "text",
+                                    "content": "public static void shuffleOptions(Option[] options){"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18
+                },
+                {
+                    "bbox": [
+                        103,
+                        698,
+                        270,
+                        710
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                103,
+                                698,
+                                270,
+                                710
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        103,
+                                        698,
+                                        270,
+                                        710
+                                    ],
+                                    "type": "text",
+                                    "content": "for (int "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        698,
+                                        270,
+                                        710
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mathbf{i} = \\mathbf{0}"
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        698,
+                                        270,
+                                        710
+                                    ],
+                                    "type": "text",
+                                    "content": " . "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        698,
+                                        270,
+                                        710
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "i<"
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        698,
+                                        270,
+                                        710
+                                    ],
+                                    "type": "text",
+                                    "content": " options.length; "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        698,
+                                        270,
+                                        710
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\dot{1} ++"
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        698,
+                                        270,
+                                        710
+                                    ],
+                                    "type": "text",
+                                    "content": " ){"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "bbox": [
+                        113,
+                        728,
+                        350,
+                        741
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                113,
+                                728,
+                                350,
+                                741
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        113,
+                                        728,
+                                        350,
+                                        741
+                                    ],
+                                    "type": "text",
+                                    "content": "int random "
+                                },
+                                {
+                                    "bbox": [
+                                        113,
+                                        728,
+                                        350,
+                                        741
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "="
+                                },
+                                {
+                                    "bbox": [
+                                        113,
+                                        728,
+                                        350,
+                                        741
+                                    ],
+                                    "type": "text",
+                                    "content": " (int) (Math.random() \\* options.length);"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 1
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        90,
+                        100,
+                        262,
+                        177
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                90,
+                                100,
+                                262,
+                                177
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        90,
+                                        100,
+                                        262,
+                                        177
+                                    ],
+                                    "type": "text",
+                                    "content": "Option temp = options[random];  options[random] = options[i];  options[i] = temp;  }"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        83,
+                        211,
+                        181,
+                        223
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                211,
+                                181,
+                                223
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        211,
+                                        181,
+                                        223
+                                    ],
+                                    "type": "text",
+                                    "content": "Answering questions"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        226,
+                        460,
+                        238
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                226,
+                                460,
+                                238
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        226,
+                                        460,
+                                        238
+                                    ],
+                                    "type": "text",
+                                    "content": "Show the questions one by one and record the answers through the keyboard entry, "
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                103,
+                                242,
+                                386,
+                                395
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "text",
+                                    "content": "//Present the questions for (int "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mathsf{i} = 0;\\mathsf{i}<"
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "text",
+                                    "content": " selected.length; "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mathsf{i} + +"
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "text",
+                                    "content": " ){ System.out.println(selected[i].getQuestionStatement()); Option[] options "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "="
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "text",
+                                    "content": " selected[i].getOptions(); ReadQuestions.shuffleOptions(options); //Scramble options for (int "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mathsf{j} = 0;\\mathsf{j}<"
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "text",
+                                    "content": " options.length; "
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mathsf{j} + +"
+                                },
+                                {
+                                    "bbox": [
+                                        103,
+                                        242,
+                                        386,
+                                        395
+                                    ],
+                                    "type": "text",
+                                    "content": " ){ System.out.println(j + 1) + \": \" + options[j].getAnswer()); }"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        103,
+                        242,
+                        386,
+                        395
+                    ],
+                    "type": "text",
+                    "lines": [],
+                    "index": 3,
+                    "lines_deleted": true
+                },
+                {
+                    "bbox": [
+                        83,
+                        413,
+                        511,
+                        442
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                413,
+                                511,
+                                442
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        413,
+                                        511,
+                                        442
+                                    ],
+                                    "type": "text",
+                                    "content": "and determine whether the answer is right or wrong by comparing the answer entered by the keyboard with the preset answer."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        83,
+                        460,
+                        161,
+                        473
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                460,
+                                161,
+                                473
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        460,
+                                        161,
+                                        473
+                                    ],
+                                    "type": "text",
+                                    "content": "Score calculating"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        476,
+                        512,
+                        504
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                476,
+                                512,
+                                504
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        476,
+                                        512,
+                                        504
+                                    ],
+                                    "type": "text",
+                                    "content": "The score is calculated by accumulation, and the score is displayed after all the questions are done"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        83,
+                        523,
+                        129,
+                        534
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                523,
+                                129,
+                                534
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        523,
+                                        129,
+                                        534
+                                    ],
+                                    "type": "text",
+                                    "content": "//answer"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        537,
+                        511,
+                        755
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                537,
+                                511,
+                                755
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        537,
+                                        511,
+                                        755
+                                    ],
+                                    "type": "text",
+                                    "content": "int ans "
+                                },
+                                {
+                                    "bbox": [
+                                        83,
+                                        537,
+                                        511,
+                                        755
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "= - 1"
+                                },
+                                {
+                                    "bbox": [
+                                        83,
+                                        537,
+                                        511,
+                                        755
+                                    ],
+                                    "type": "text",
+                                    "content": " while (true){ System.out.println(\"Please print the answer (Print a number)\"); try{ ans "
+                                },
+                                {
+                                    "bbox": [
+                                        83,
+                                        537,
+                                        511,
+                                        755
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "="
+                                },
+                                {
+                                    "bbox": [
+                                        83,
+                                        537,
+                                        511,
+                                        755
+                                    ],
+                                    "type": "text",
+                                    "content": " sc.nextInt(); if (ans "
+                                },
+                                {
+                                    "bbox": [
+                                        83,
+                                        537,
+                                        511,
+                                        755
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "> = 1"
+                                },
+                                {
+                                    "bbox": [
+                                        83,
+                                        537,
+                                        511,
+                                        755
+                                    ],
+                                    "type": "text",
+                                    "content": " && ans "
+                                },
+                                {
+                                    "bbox": [
+                                        83,
+                                        537,
+                                        511,
+                                        755
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "< ="
+                                },
+                                {
+                                    "bbox": [
+                                        83,
+                                        537,
+                                        511,
+                                        755
+                                    ],
+                                    "type": "text",
+                                    "content": " options.length){//Validity test if (options[ans - 1].isCorrectAnswer()){ totalpoints++; } break; }else{ System.out.println(\"Invalid input\"); } } catch (InputMismatchException e){"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 2
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        83,
+                        84,
+                        511,
+                        146
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                84,
+                                511,
+                                146
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        84,
+                                        511,
+                                        146
+                                    ],
+                                    "type": "text",
+                                    "content": "System.out.println(\"invalid input\"); sc.next(); } }"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        83,
+                        180,
+                        134,
+                        192
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                180,
+                                134,
+                                192
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        180,
+                                        134,
+                                        192
+                                    ],
+                                    "type": "text",
+                                    "content": "Save score"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        195,
+                        384,
+                        208
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                195,
+                                384,
+                                208
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        195,
+                                        384,
+                                        208
+                                    ],
+                                    "type": "text",
+                                    "content": "(1) Read all data in score.csv each time after finishing the attempt."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        168,
+                        211,
+                        262,
+                        223
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                168,
+                                211,
+                                262,
+                                223
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        168,
+                                        211,
+                                        262,
+                                        223
+                                    ],
+                                    "type": "text",
+                                    "content": "allData.add(fields);"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        122,
+                        242,
+                        292,
+                        302
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                122,
+                                242,
+                                292,
+                                302
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        122,
+                                        242,
+                                        292,
+                                        302
+                                    ],
+                                    "type": "text",
+                                    "content": "String user = fields[0]; String topicName = fields[1]; int score = Integer.parseInt(fields[2]); String type = fields[3];"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        82,
+                        319,
+                        460,
+                        333
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                319,
+                                460,
+                                333
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        319,
+                                        460,
+                                        333
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) Store the read data which have been labeled \"recent\" into the recentScore array."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        122,
+                        336,
+                        498,
+                        395
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                122,
+                                336,
+                                498,
+                                395
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        122,
+                                        336,
+                                        498,
+                                        395
+                                    ],
+                                    "type": "text",
+                                    "content": "//recent 3 scores if (user.equals(username) && topicName.equals(topic) && type.equals(\"recent\")) { recentScores.add(score); }"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        83,
+                        413,
+                        387,
+                        427
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                413,
+                                387,
+                                427
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        413,
+                                        387,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "(3) Add the information about the attempt to the recentScore array."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        82,
+                        429,
+                        512,
+                        456
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                429,
+                                512,
+                                456
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        429,
+                                        512,
+                                        456
+                                    ],
+                                    "type": "text",
+                                    "content": "(4) Check the number of elements in the array, if the number is greater than 3, then delete the first information."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        83,
+                        460,
+                        510,
+                        552
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                460,
+                                510,
+                                552
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        460,
+                                        510,
+                                        552
+                                    ],
+                                    "type": "text",
+                                    "content": "//If there are more than three records, delete them recentScores.add(currentScore); if (recentScores.size) > MAX_RECENT_SCORES) { recentScores = recentScores.subList(recentScores.size() - MAX_RECENT_SCORES, recentScores.size()); }"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        82,
+                        569,
+                        511,
+                        582
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                569,
+                                511,
+                                582
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        569,
+                                        511,
+                                        582
+                                    ],
+                                    "type": "text",
+                                    "content": "(5) Store the data which have been labeled \"highest\" in the read data into the relevant variable."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        122,
+                        585,
+                        378,
+                        661
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                122,
+                                585,
+                                378,
+                                661
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        122,
+                                        585,
+                                        378,
+                                        661
+                                    ],
+                                    "type": "text",
+                                    "content": "//highest for each topic if (topicName.equals(topic) && type.equals(\"highest\")) { topicHighestScore = score; highestUserForTopic = user; }"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        82,
+                        679,
+                        512,
+                        706
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                679,
+                                512,
+                                706
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        679,
+                                        512,
+                                        706
+                                    ],
+                                    "type": "text",
+                                    "content": "(6) Compare the data stored in the variable with the data about this attempt and do the update if is needed."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        82,
+                        709,
+                        512,
+                        754
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                709,
+                                512,
+                                754
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        709,
+                                        512,
+                                        754
+                                    ],
+                                    "type": "text",
+                                    "content": "//If it is the highest score, it will be updated (it will not be updated if it is the same score as the highest score) if (currentScore > topicHighestScore) {"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 3
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        101,
+                        85,
+                        268,
+                        130
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                101,
+                                85,
+                                268,
+                                130
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        101,
+                                        85,
+                                        268,
+                                        130
+                                    ],
+                                    "type": "text",
+                                    "content": "topicHighestScore = currentScore;  highestUserForTopic = username;  }"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        84,
+                        148,
+                        167,
+                        161
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                84,
+                                148,
+                                167,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        148,
+                                        167,
+                                        161
+                                    ],
+                                    "type": "text",
+                                    "content": "(7) Update allData"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        82,
+                        164,
+                        169,
+                        176
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                164,
+                                169,
+                                176
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        164,
+                                        169,
+                                        176
+                                    ],
+                                    "type": "text",
+                                    "content": "//remove old data"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        82,
+                        179,
+                        495,
+                        210
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                179,
+                                495,
+                                210
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        179,
+                                        495,
+                                        210
+                                    ],
+                                    "type": "text",
+                                    "content": "allData.removeelf(record "
+                                },
+                                {
+                                    "bbox": [
+                                        82,
+                                        179,
+                                        495,
+                                        210
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "- >"
+                                },
+                                {
+                                    "bbox": [
+                                        82,
+                                        179,
+                                        495,
+                                        210
+                                    ],
+                                    "type": "text",
+                                    "content": " record[0].equals(username) && record[1].equals(topic) && record[3].equals(\"recent\")); //recent"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        82,
+                        211,
+                        492,
+                        238
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                211,
+                                492,
+                                238
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        211,
+                                        492,
+                                        238
+                                    ],
+                                    "type": "text",
+                                    "content": "allData.removeelf(record "
+                                },
+                                {
+                                    "bbox": [
+                                        82,
+                                        211,
+                                        492,
+                                        238
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "- >"
+                                },
+                                {
+                                    "bbox": [
+                                        82,
+                                        211,
+                                        492,
+                                        238
+                                    ],
+                                    "type": "text",
+                                    "content": " record[1].equals(topic) && record[3].equals(\"highest\")); // highest "
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                101,
+                                242,
+                                207,
+                                253
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        101,
+                                        242,
+                                        207,
+                                        253
+                                    ],
+                                    "type": "text",
+                                    "content": "//Write back to recent"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        101,
+                        242,
+                        207,
+                        253
+                    ],
+                    "type": "text",
+                    "lines": [],
+                    "index": 5,
+                    "lines_deleted": true
+                },
+                {
+                    "bbox": [
+                        102,
+                        258,
+                        239,
+                        269
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                102,
+                                258,
+                                239,
+                                269
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        102,
+                                        258,
+                                        239,
+                                        269
+                                    ],
+                                    "type": "text",
+                                    "content": "for (int score : recentScores) {"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        101,
+                        273,
+                        455,
+                        302
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                101,
+                                273,
+                                455,
+                                302
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        101,
+                                        273,
+                                        455,
+                                        302
+                                    ],
+                                    "type": "text",
+                                    "content": "allData.add(new String[] {username, topic, String.valueOf(score), \"recent\"});  }"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        83,
+                        305,
+                        501,
+                        349
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                305,
+                                501,
+                                349
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        305,
+                                        501,
+                                        349
+                                    ],
+                                    "type": "text",
+                                    "content": "//Write back to highest  allData.add(new String[] {highestUserForTopic, topic, String.valueOf(topicHighestScore), \"highest\"});"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        84,
+                        366,
+                        204,
+                        380
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                84,
+                                366,
+                                204,
+                                380
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        366,
+                                        204,
+                                        380
+                                    ],
+                                    "type": "text",
+                                    "content": "(8) Write back to score.csv"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        83,
+                        397,
+                        136,
+                        411
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                397,
+                                136,
+                                411
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        397,
+                                        136,
+                                        411
+                                    ],
+                                    "type": "text",
+                                    "content": "Dashboard"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        413,
+                        512,
+                        457
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                413,
+                                512,
+                                457
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        413,
+                                        512,
+                                        457
+                                    ],
+                                    "type": "text",
+                                    "content": "Read the score.csv file and display the data with the \"recent\" tag which also correspond to the user and the topic after each attempt. The Dashboard will display the last 3 attempts (involving the current attempt)."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        94,
+                        460,
+                        251,
+                        473
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                460,
+                                251,
+                                473
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        460,
+                                        251,
+                                        473
+                                    ],
+                                    "type": "text",
+                                    "content": "public void displayRecentScores() {"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        83,
+                        507,
+                        144,
+                        519
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                507,
+                                144,
+                                519
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        507,
+                                        144,
+                                        519
+                                    ],
+                                    "type": "text",
+                                    "content": "Leaderboard"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        523,
+                        512,
+                        550
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                523,
+                                512,
+                                550
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        523,
+                                        512,
+                                        550
+                                    ],
+                                    "type": "text",
+                                    "content": "Read and display the data in the score.csv file with the label \"highest\" which correspond to the topic of this attempt."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "bbox": [
+                        94,
+                        554,
+                        250,
+                        567
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                554,
+                                250,
+                                567
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        554,
+                                        250,
+                                        567
+                                    ],
+                                    "type": "text",
+                                    "content": "public void displayHighestScore() {"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15
+                },
+                {
+                    "bbox": [
+                        280,
+                        619,
+                        314,
+                        634
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                280,
+                                619,
+                                314,
+                                634
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        280,
+                                        619,
+                                        314,
+                                        634
+                                    ],
+                                    "type": "text",
+                                    "content": "Tests"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        84,
+                        647,
+                        204,
+                        660
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                84,
+                                647,
+                                204,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        647,
+                                        204,
+                                        660
+                                    ],
+                                    "type": "text",
+                                    "content": "(1) Test on keyboard input"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17
+                },
+                {
+                    "bbox": [
+                        83,
+                        662,
+                        496,
+                        690
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                662,
+                                496,
+                                690
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        662,
+                                        496,
+                                        690
+                                    ],
+                                    "type": "text",
+                                    "content": "For all places where Scanner input is called, the input of empty strings, Chinese and all ASCII characters will not crash is ensured."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18
+                },
+                {
+                    "bbox": [
+                        83,
+                        693,
+                        492,
+                        721
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                693,
+                                492,
+                                721
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        693,
+                                        492,
+                                        721
+                                    ],
+                                    "type": "text",
+                                    "content": "For all places where Scanner input is called, if something entered is not expected, it will be asked to re- enter."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "bbox": [
+                        88,
+                        724,
+                        321,
+                        753
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                724,
+                                321,
+                                753
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        724,
+                                        321,
+                                        753
+                                    ],
+                                    "type": "text",
+                                    "content": "if (topics.contains(field)) {  break; // If the input is valid, jump out of the loop"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 4
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        85,
+                        85,
+                        511,
+                        131
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                85,
+                                511,
+                                131
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        85,
+                                        511,
+                                        131
+                                    ],
+                                    "type": "text",
+                                    "content": "} else {    System.out.println(\"Invalid topic selected. Please select a valid topic.\\n\");}"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        82,
+                        148,
+                        508,
+                        176
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                148,
+                                508,
+                                176
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        148,
+                                        508,
+                                        176
+                                    ],
+                                    "type": "text",
+                                    "content": "If the entered account does not exist, a new entry is required. If the account and the password does not match, a re- enter of the password is required."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        83,
+                        179,
+                        154,
+                        192
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                179,
+                                154,
+                                192
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        179,
+                                        154,
+                                        192
+                                    ],
+                                    "type": "text",
+                                    "content": "if(!cardExists) {"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        105,
+                        195,
+                        489,
+                        255
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                105,
+                                195,
+                                489,
+                                255
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        195,
+                                        489,
+                                        255
+                                    ],
+                                    "type": "text",
+                                    "content": "System.out.println(\"The username you entered does not exist, please try again\\n\"); sc.nextLine(); return null; }"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        105,
+                        273,
+                        434,
+                        317
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                105,
+                                273,
+                                434,
+                                317
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        273,
+                                        434,
+                                        317
+                                    ],
+                                    "type": "text",
+                                    "content": "else {    System.out.println(\"The password is incorrect, please re- enter it\");}"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        82,
+                        351,
+                        507,
+                        379
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                351,
+                                507,
+                                379
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        351,
+                                        507,
+                                        379
+                                    ],
+                                    "type": "text",
+                                    "content": "Ensure that username, name, and password are not empty. You cannot register a new account using the existing username."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        111,
+                        381,
+                        474,
+                        443
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                381,
+                                474,
+                                443
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        381,
+                                        474,
+                                        443
+                                    ],
+                                    "type": "text",
+                                    "content": "if (nickname.length() == 0 || name.length() == 0 || password.length() == 0) {    System.out.println(\"Information cannot be empty\\n\");    return; // jump out}"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        83,
+                        460,
+                        395,
+                        504
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                460,
+                                395,
+                                504
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        460,
+                                        395,
+                                        504
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) Testing of dependent documentsIf the users.csv file does not exist, a new users.csv file will be created.If the score.csv file does not exist, a new score.csv file will be created."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        102,
+                        522,
+                        409,
+                        645
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                102,
+                                522,
+                                409,
+                                645
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        102,
+                                        522,
+                                        409,
+                                        645
+                                    ],
+                                    "type": "text",
+                                    "content": "if (!file.exists()) {    try {        file.getParentFile().mkdirs();        file.createNewFile();    } catch (IOException e) {        System.out.println(\"Error creating CSV file: \" + e.getMessage());    }}"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        84,
+                        663,
+                        215,
+                        676
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                84,
+                                663,
+                                215,
+                                676
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        663,
+                                        215,
+                                        676
+                                    ],
+                                    "type": "text",
+                                    "content": "(3) Test on reading questions"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        83,
+                        679,
+                        495,
+                        722
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                679,
+                                495,
+                                722
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        679,
+                                        495,
+                                        722
+                                    ],
+                                    "type": "text",
+                                    "content": "Questions from the questionBank will be read and determine whether they are valid or not. Questions that are not valid will not be selected and displayed to the user or counted in the number of questions."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 5
+        },
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        82,
+                        85,
+                        503,
+                        129
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                85,
+                                503,
+                                129
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        85,
+                                        503,
+                                        129
+                                    ],
+                                    "type": "text",
+                                    "content": "// Determine whether the question is scrapped Scrap the question; getTopic() is empty, getQuestionStatement() is empty, getOptions() length "
+                                },
+                                {
+                                    "bbox": [
+                                        82,
+                                        85,
+                                        503,
+                                        129
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "< = 1"
+                                },
+                                {
+                                    "bbox": [
+                                        82,
+                                        85,
+                                        503,
+                                        129
+                                    ],
+                                    "type": "text",
+                                    "content": ", options[j].isCorrectAnswer() true number "
+                                },
+                                {
+                                    "bbox": [
+                                        82,
+                                        85,
+                                        503,
+                                        129
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "l = 1"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        103,
+                        132,
+                        289,
+                        146
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                103,
+                                132,
+                                289,
+                                146
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        103,
+                                        132,
+                                        289,
+                                        146
+                                    ],
+                                    "type": "text",
+                                    "content": "for (int i = 0; i < allquestions.length; i++) {"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        82,
+                        163,
+                        511,
+                        490
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                163,
+                                511,
+                                490
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        163,
+                                        511,
+                                        490
+                                    ],
+                                    "type": "text",
+                                    "content": "if (allquestions[i].getTopic() == null || allquestions[i].getQuestionStatement() == null) { // It is possible that this judgment can be commented out, because the ReadQuestion function given by him cannot read null values```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript```javascript``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ` ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ` ``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ` ` ```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ```` ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ` ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ```` ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ` ` ` `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` ` ` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ```` ``` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `  ``` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `   ``` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `   ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` }```"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        83,
+                        507,
+                        505,
+                        551
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                507,
+                                505,
+                                551
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        507,
+                                        505,
+                                        551
+                                    ],
+                                    "type": "text",
+                                    "content": "Determine whether there are enough questions for every difficulty in this topic. If the number of topics is insufficient, then throw new IllegalArgumentException(\"There are not enough questions. Please contact the teacher for assistance.\")."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        83,
+                        576,
+                        506,
+                        653
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                576,
+                                506,
+                                653
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        576,
+                                        506,
+                                        653
+                                    ],
+                                    "type": "text",
+                                    "content": "if (easycount < EASY || mediumcount < MEDIUM || hardcount < HARD || veryhardcount < VERY_HARD) { throw new IllegalArgumentException(\"There are not enough questions. Please contact the teacher for assistance.\"); }"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 6
+        },
+        {
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        120,
+                        83,
+                        522,
+                        257
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                120,
+                                83,
+                                522,
+                                257
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        120,
+                                        83,
+                                        522,
+                                        257
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                120,
+                                                83,
+                                                522,
+                                                257
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>Name</td><td>Student ID</td><td>Task(s)</td><td>Contribution(%)</td><td>Signature</td></tr><tr><td>Shuobai.Chen</td><td>2362870</td><td>User registration and authentication</td><td>20</td><td>陈烁白</td></tr><tr><td>Chengfeng.Zou</td><td>2363550</td><td>Topic selection</td><td>20</td><td>邹建风</td></tr><tr><td>Yiduo.Xu</td><td>2362146</td><td>Quiz taking</td><td>20</td><td>许亦多</td></tr><tr><td>Qinzi Wang</td><td>2363287</td><td>Dashboard</td><td>20</td><td>王沁子</td></tr><tr><td>Ruihan.Xiong</td><td>2363707</td><td>Leaderboard</td><td>20</td><td>熊睿涵</td></tr></table>",
+                                            "image_path": "2f57f43b4d4d84b754a360576226740e2741fdc489715b99d1dc6b83847f7844.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 0,
+                            "type": "table_body"
+                        }
+                    ],
+                    "index": 0
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 7
+        }
+    ],
+    "_backend": "vlm",
+    "_version_name": "2.0.6"
+}

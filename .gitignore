@@ -1,0 +1,5 @@
+# 忽略 output 文件夹及其所有内容
+output/
+
+# 忽略所有以 simplified_ 开头的文件（任意扩展名）
+simplified_*
