@@ -2,7 +2,9 @@
 
 ## 概述
 
-`simplify_json.py` 是一个用于从复杂的 PDF 布局 JSON 文件中提取所有 `spans` 内容的工具。该工具可以递归搜索指定目录中的所有 `layout.json` 文件，提取其中的文本片段（spans），并生成简化的 JSON 文件。
+Simplify JSON 是一个专门用于处理 MinerU 输出的 `layout.json` 文件的工具。该工具能够从复杂的 PDF 布局分析结果中提取纯文本内容，将其转换为适合大模型 RAG（检索增强生成）系统输入的简化格式。
+
+MinerU 输出的 layout.json 文件包含详细的页面布局信息、坐标数据和各种元数据，而 RAG 系统通常只需要其中的文本内容。本工具通过递归提取所有 `spans` 字段中的内容，生成清洁、结构化的文本数据。
 
 ## 主要功能
 
@@ -203,14 +205,14 @@ def process_pdf_data(source_dir, target_dir):
     """处理PDF数据的完整流程"""
     # 确保输出目录存在
     os.makedirs(target_dir, exist_ok=True)
-    
+
     # 简化JSON数据
     processed_files = simplify_json(
         input_folder=source_dir,
         output_to_folder=True,
         output_folder=target_dir
     )
-    
+
     return processed_files
 ```
 
@@ -234,3 +236,4 @@ def process_pdf_data(source_dir, target_dir):
 2. 文件路径是否存在
 3. 是否有足够的文件权限
 4. JSON 文件是否有效
+
