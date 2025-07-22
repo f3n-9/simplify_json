@@ -1,0 +1,263 @@
+{
+    "pdf_info": [
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        36,
+                        129,
+                        135,
+                        142
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                36,
+                                129,
+                                135,
+                                142
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        36,
+                                        129,
+                                        135,
+                                        142
+                                    ],
+                                    "type": "text",
+                                    "content": "LATE SUBMISSIONS"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        35,
+                        158,
+                        522,
+                        234
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                35,
+                                158,
+                                522,
+                                234
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        35,
+                                        158,
+                                        522,
+                                        234
+                                    ],
+                                    "type": "text",
+                                    "content": "Penalties will apply for any work submitted after the due date unless you have obtained a formal extension prior to the date for submission. The penalty applied will be "
+                                },
+                                {
+                                    "bbox": [
+                                        35,
+                                        158,
+                                        522,
+                                        234
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "5\\%"
+                                },
+                                {
+                                    "bbox": [
+                                        35,
+                                        158,
+                                        522,
+                                        234
+                                    ],
+                                    "type": "text",
+                                    "content": " of the available marks for the assignment for each working day or part thereof that the assignment is late. The penalty will be capped at five working days (120 hours) from the assignment deadline. Work submitted after five working days will receive a grade of zero."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        36,
+                        251,
+                        166,
+                        264
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                36,
+                                251,
+                                166,
+                                264
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        36,
+                                        251,
+                                        166,
+                                        264
+                                    ],
+                                    "type": "text",
+                                    "content": "SPECIAL CONSIDERATION"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        36,
+                        283,
+                        521,
+                        327
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                36,
+                                283,
+                                521,
+                                327
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        36,
+                                        283,
+                                        521,
+                                        327
+                                    ],
+                                    "type": "text",
+                                    "content": "Requests for an extension due to illness, misadventure, or other extenuating circumstances beyond your control will only be considered via a formal application for special consideration through e- Bridge."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        36,
+                        345,
+                        254,
+                        359
+                    ],
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                36,
+                                345,
+                                254,
+                                359
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        36,
+                                        345,
+                                        254,
+                                        359
+                                    ],
+                                    "type": "text",
+                                    "content": "PLAGIARISM AND ACADEMIC MISCONDUCT"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        35,
+                        375,
+                        522,
+                        499
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                35,
+                                375,
+                                522,
+                                499
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        35,
+                                        375,
+                                        522,
+                                        499
+                                    ],
+                                    "type": "text",
+                                    "content": "It is assumed that you are thoroughly familiar with the policies of XJTLU regarding academic misconduct and plagiarism. Ignorance of the rules is not an acceptable defence against an allegation of academic misconduct. There are no excuses for engaging in plagiarism. Assignment answers will be checked for plagiarism. Impermissible similarities between student answers (current and former) can be detected by academic integrity software and by instructor, and will be referred to the School's Examination Officer for investigation. Penalties will follow those of the University's Academic Integrity Policy on e- Bridge and can range from capped marks to expulsions from the university."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        35,
+                        516,
+                        399,
+                        530
+                    ],
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                35,
+                                516,
+                                399,
+                                530
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        35,
+                                        516,
+                                        399,
+                                        530
+                                    ],
+                                    "type": "text",
+                                    "content": "USE OF GENERATIVE ARTIFICIAL INTELLIGENCE (AI) IS NOT PERMITTED."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 0
+        }
+    ],
+    "_backend": "vlm",
+    "_version_name": "2.0.6"
+}

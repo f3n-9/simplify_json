@@ -1323,6 +1323,690 @@
                     ]
                 }
             ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        70,
+                        48,
+                        285,
+                        64
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                71,
+                                50,
+                                282,
+                                63
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        50,
+                                        282,
+                                        63
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Xi’an Jiaotong-Liverpool University",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        68,
+                        130,
+                        554,
+                        160
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                130,
+                                555,
+                                145
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        130,
+                                        130,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": "(f) For all a,",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        130,
+                                        131,
+                                        177,
+                                        144
+                                    ],
+                                    "score": 0.71,
+                                    "content": "\\ b \\ \\in \\ Z ^ { + }",
+                                    "type": "inline_equation",
+                                    "height": 13,
+                                    "width": 47
+                                },
+                                {
+                                    "bbox": [
+                                        177,
+                                        130,
+                                        239,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", we define a",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        239,
+                                        131,
+                                        258,
+                                        143
+                                    ],
+                                    "score": 0.56,
+                                    "content": "\\circledcirc \\mathbf { b }",
+                                    "type": "inline_equation",
+                                    "height": 12,
+                                    "width": 19
+                                },
+                                {
+                                    "bbox": [
+                                        258,
+                                        130,
+                                        269,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": " if",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        269,
+                                        131,
+                                        325,
+                                        144
+                                    ],
+                                    "score": 0.8,
+                                    "content": "\\mathbf { a } / \\mathbf { b } \\ \\in \\ Z +",
+                                    "type": "inline_equation",
+                                    "height": 13,
+                                    "width": 56
+                                },
+                                {
+                                    "bbox": [
+                                        325,
+                                        130,
+                                        421,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": ". Prove or disprove ",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        422,
+                                        131,
+                                        434,
+                                        143
+                                    ],
+                                    "score": 0.76,
+                                    "content": "\\circledcirc",
+                                    "type": "inline_equation",
+                                    "height": 12,
+                                    "width": 12
+                                },
+                                {
+                                    "bbox": [
+                                        435,
+                                        130,
+                                        555,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": "is a partial order and/or",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                87,
+                                147,
+                                183,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        148,
+                                        162,
+                                        161
+                                    ],
+                                    "score": 1.0,
+                                    "content": "a total order on",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        147,
+                                        179,
+                                        159
+                                    ],
+                                    "score": 0.87,
+                                    "content": "Z ^ { + }",
+                                    "type": "inline_equation",
+                                    "height": 12,
+                                    "width": 16
+                                },
+                                {
+                                    "bbox": [
+                                        179,
+                                        148,
+                                        183,
+                                        161
+                                    ],
+                                    "score": 1.0,
+                                    "content": ".",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 1.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        207,
+                        246,
+                        416,
+                        263
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                210,
+                                250,
+                                414,
+                                260
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        210,
+                                        250,
+                                        414,
+                                        260
+                                    ],
+                                    "score": 1.0,
+                                    "content": "END OF ASSESSMENT I PAPER",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                }
+            ],
+            "layout_bboxes": [],
+            "page_idx": 1,
+            "page_size": [
+                595.2999877929688,
+                841.9000244140625
+            ],
+            "_layout_tree": [],
+            "images": [],
+            "tables": [],
+            "interline_equations": [],
+            "discarded_blocks": [
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        353,
+                        41,
+                        524,
+                        76
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                355,
+                                42,
+                                494,
+                                53
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        355,
+                                        42,
+                                        494,
+                                        53
+                                    ],
+                                    "score": 0.992,
+                                    "content": "Xi'anJiaotong-Liverpool University",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                355,
+                                55,
+                                494,
+                                73
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        355,
+                                        55,
+                                        494,
+                                        73
+                                    ],
+                                    "score": 0.967,
+                                    "content": "西交利物浦大学",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        481,
+                        780,
+                        539,
+                        793
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                481,
+                                781,
+                                540,
+                                793
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        481,
+                                        781,
+                                        540,
+                                        793
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Page 5 of 5",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        68,
+                        780,
+                        234,
+                        792
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                782,
+                                233,
+                                791
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        782,
+                                        233,
+                                        791
+                                    ],
+                                    "score": 1.0,
+                                    "content": "PAPER CODE: CPT107/24-25/S1",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "discarded",
+                    "bbox": [
+                        492,
+                        163,
+                        546,
+                        176
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                493,
+                                163,
+                                546,
+                                177
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        493,
+                                        163,
+                                        546,
+                                        177
+                                    ],
+                                    "score": 1.0,
+                                    "content": "(10 marks)",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "need_drop": false,
+            "drop_reason": [],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        70,
+                        48,
+                        285,
+                        64
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                71,
+                                50,
+                                282,
+                                63
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        50,
+                                        282,
+                                        63
+                                    ],
+                                    "score": 1.0,
+                                    "content": "Xi’an Jiaotong-Liverpool University",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0,
+                    "page_num": "page_1",
+                    "page_size": [
+                        595.2999877929688,
+                        841.9000244140625
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        68,
+                        130,
+                        554,
+                        160
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                130,
+                                555,
+                                145
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        130,
+                                        130,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": "(f) For all a,",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        130,
+                                        131,
+                                        177,
+                                        144
+                                    ],
+                                    "score": 0.71,
+                                    "content": "\\ b \\ \\in \\ Z ^ { + }",
+                                    "type": "inline_equation",
+                                    "height": 13,
+                                    "width": 47
+                                },
+                                {
+                                    "bbox": [
+                                        177,
+                                        130,
+                                        239,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": ", we define a",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        239,
+                                        131,
+                                        258,
+                                        143
+                                    ],
+                                    "score": 0.56,
+                                    "content": "\\circledcirc \\mathbf { b }",
+                                    "type": "inline_equation",
+                                    "height": 12,
+                                    "width": 19
+                                },
+                                {
+                                    "bbox": [
+                                        258,
+                                        130,
+                                        269,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": " if",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        269,
+                                        131,
+                                        325,
+                                        144
+                                    ],
+                                    "score": 0.8,
+                                    "content": "\\mathbf { a } / \\mathbf { b } \\ \\in \\ Z +",
+                                    "type": "inline_equation",
+                                    "height": 13,
+                                    "width": 56
+                                },
+                                {
+                                    "bbox": [
+                                        325,
+                                        130,
+                                        421,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": ". Prove or disprove ",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        422,
+                                        131,
+                                        434,
+                                        143
+                                    ],
+                                    "score": 0.76,
+                                    "content": "\\circledcirc",
+                                    "type": "inline_equation",
+                                    "height": 12,
+                                    "width": 12
+                                },
+                                {
+                                    "bbox": [
+                                        435,
+                                        130,
+                                        555,
+                                        145
+                                    ],
+                                    "score": 1.0,
+                                    "content": "is a partial order and/or",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                87,
+                                147,
+                                183,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        148,
+                                        162,
+                                        161
+                                    ],
+                                    "score": 1.0,
+                                    "content": "a total order on",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        147,
+                                        179,
+                                        159
+                                    ],
+                                    "score": 0.87,
+                                    "content": "Z ^ { + }",
+                                    "type": "inline_equation",
+                                    "height": 12,
+                                    "width": 16
+                                },
+                                {
+                                    "bbox": [
+                                        179,
+                                        148,
+                                        183,
+                                        161
+                                    ],
+                                    "score": 1.0,
+                                    "content": ".",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 1.5,
+                    "page_num": "page_1",
+                    "page_size": [
+                        595.2999877929688,
+                        841.9000244140625
+                    ],
+                    "bbox_fs": [
+                        69,
+                        130,
+                        555,
+                        161
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        207,
+                        246,
+                        416,
+                        263
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                210,
+                                250,
+                                414,
+                                260
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        210,
+                                        250,
+                                        414,
+                                        260
+                                    ],
+                                    "score": 1.0,
+                                    "content": "END OF ASSESSMENT I PAPER",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "page_num": "page_1",
+                    "page_size": [
+                        595.2999877929688,
+                        841.9000244140625
+                    ],
+                    "bbox_fs": [
+                        210,
+                        250,
+                        414,
+                        260
+                    ]
+                }
+            ]
         }
     ],
     "_parse_type": "txt",
