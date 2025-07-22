@@ -102,7 +102,7 @@ def save_json(data, output_path):
 
 
 # 简化JSON文件的主函数
-def simplify_json(input_folder='input', output_to_folder=False, output_folder='output'):
+def simplify_json(input_folder='input', output_to_folder=True, output_folder='output'):
     """
     简化 JSON 文件的主要处理函数
 

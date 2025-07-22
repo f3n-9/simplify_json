@@ -69,10 +69,10 @@ simplify_json(
 
 ### `simplify_json()` 函数参数
 
-| 参数 | 类型 | 默认值 | 说明 |
-|------|------|--------|------|
-| `input_folder` | str | `'input'` | 输入文件夹路径，工具会递归搜索此目录下的所有 `layout.json` 文件 |
-| `output_to_folder` | bool | `False` | 输出模式选择：<br/>- `True`：集中输出到指定文件夹<br/>- `False`：在原文件同目录下输出 |
+| 参数 | 类型 | 默认值        | 说明 |
+|------|------|------------|------|
+| `input_folder` | str | `'input'`  | 输入文件夹路径，工具会递归搜索此目录下的所有 `layout.json` 文件 |
+| `output_to_folder` | bool | `True`     | 输出模式选择：<br/>- `True`：集中输出到指定文件夹<br/>- `False`：在原文件同目录下输出 |
 | `output_folder` | str | `'output'` | 输出文件夹路径（仅在集中输出模式下有效） |
 
 ## 输入文件格式
@@ -84,7 +84,7 @@ simplify_json(
 {
     "pdf_info": [
         {
-            "preproc_blocks": [
+            "para_blocks": [
                 {
                     "type": "title",
                     "bbox": [x1, y1, x2, y2],
@@ -149,14 +149,14 @@ simplify_json(
 ### 集中输出模式
 - 文件名格式：`simplified_layout_{文件夹名}.json`
 - 示例：
-  - `input/test1/layout.json` → `output/simplified_layout_test1.json`
-  - `input/test2/layout.json` → `output/simplified_layout_test2.json`
+  - `input/doc1/layout.json` → `output/simplified_layout_doc1.json`
+  - `input/doc2/layout.json` → `output/simplified_layout_doc2.json`
 
 ### 原地输出模式
 - 文件名：`simplified_layout.json`
 - 位置：与原 `layout.json` 文件相同目录
 - 示例：
-  - `input/test1/layout.json` → `input/test1/simplified_layout.json`
+  - `input/doc1/layout.json` → `input/doc1/simplified_layout.json`
 
 ## 目录结构示例
 
@@ -164,16 +164,13 @@ simplify_json(
 项目根目录/
 ├── simplify_json.py      # 主程序文件
 ├── input/                # 输入目录
-│   ├── test1/
+│   ├── doc1/
 │   │   └── layout.json
-│   ├── test2/
-│   │   └── layout.json
-│   └── test3/
+│   └── doc2/
 │       └── layout.json
 └── output/               # 输出目录（集中输出模式）
-    ├── simplified_layout_test1.json
-    ├── simplified_layout_test2.json
-    └── simplified_layout_test3.json
+    ├── simplified_layout_doc1.json
+    └── simplified_layout_doc2.json
 ```
 
 ## 错误处理
