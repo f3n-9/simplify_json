@@ -9,7 +9,9 @@ MinerU 输出的 layout.json 文件包含详细的页面布局信息、坐标数
 ## 主要功能
 
 - 🔍 **自动搜索**：递归搜索指定目录下所有名为 `layout.json` 的文件
-- 📝 **内容提取**：从复杂的 JSON 结构中提取所有 `spans` 内容
+- 📝 **内容提取**：从复杂的 JSON 结构中递归提取所有 `spans` 内容
+- ✨ **页码注入**：为每个提取的 `span` 自动添加整数格式的 `page_num` 字段，标明其所在的页码
+- 🔢 **页内索引**：为每个 `span` 添加一个从1开始的、在**当前页面内**唯一的 `index`，方便后续处理和溯源
 - 📂 **灵活输出**：支持两种输出模式（原地输出/集中输出）
 - 🚀 **批量处理**：一次性处理多个文件
 - 🛡️ **错误处理**：包含异常处理，确保单个文件错误不影响整体处理
@@ -110,22 +112,34 @@ simplify_json(
 
 ## 输出文件格式
 
-工具会提取所有 `spans` 内容并生成简化的 JSON 数组。
+工具会提取所有 `spans` 内容并生成简化的 JSON 数组。每个 `span` 对象都会被添加 `index` 和 `page_num` 字段。
 
 ### 示例输出：
 ```json
 [
     {
+        "index": 1,
         "bbox": [x1, y1, x2, y2],
         "score": 1.0,
         "content": "文本内容1",
-        "type": "text"
+        "type": "text",
+        "page_num": 0
     },
     {
+        "index": 2,
         "bbox": [x1, y1, x2, y2],
         "score": 1.0,
         "content": "文本内容2",
-        "type": "text"
+        "type": "text",
+        "page_num": 0
+    },
+    {
+        "index": 1,
+        "bbox": [x1, y1, x2, y2],
+        "score": 1.0,
+        "content": "另一页的文本",
+        "type": "text",
+        "page_num": 1
     }
 ]
 ```
@@ -236,4 +250,3 @@ def process_pdf_data(source_dir, target_dir):
 2. 文件路径是否存在
 3. 是否有足够的文件权限
 4. JSON 文件是否有效
-
